@@ -3,6 +3,7 @@ function passWord() {
 	if (cookie == "notpassword") {
 		window.open('https://garrettspage.com/OTHER/PROTECTED/Protected-Hub.html', '_self');
 		alert('GRANTED');
+		return " ";
 	} else if (cookie == "locked") {
 		alert('LOCKED');
 		return " ";
@@ -32,7 +33,7 @@ function directProtected() {
 
 function createCookie(cookieName,cookieValue)
 {
-  document.cookie = cookieName + "=" + cookieValue + "; expires=" + new Date(2147483647 * 1000).toUTCString(); + "; domain=garrettspage.com; path=/; samesite=lax; secure";
+  document.cookie = cookieName + "=" + cookieValue + "; expires=" + new Date(2147483647 * 1000).toUTCString(); + "; domain=garrettspage.com; path=/; secure; samesite=lax;";
 }
 
 function accessCookie(cookieName) {
