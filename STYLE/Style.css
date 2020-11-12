@@ -175,6 +175,32 @@ div.page {
                     color: rgb( 103, 114, 135);
                     font-size: 18px;
                 }
+				
+			div.nav-link-right {
+				width: auto;
+				height: 60px;
+                display: inline-block;
+				margin-right: 1&;
+				margin-left: auto;
+				right: 1%;
+                background-color: rgba( 200, 200, 200, 0.2);
+			}
+			
+				div.nav-link-right a{
+						height: auto;
+						width: auto;
+						padding-top: 13%;
+						padding-bottom: 12%;
+						padding-left: 6%;
+						padding-right: 6%;
+						font-family: 'Sans Pro Regular';
+						letter-spacing: 1px;
+						font-weight: lighter;
+						text-align: center;
+						text-decoration: none;
+						color: rgb( 103, 114, 135);
+						font-size: 18px;
+                }
 
     div.body {
         width: 85%;
@@ -189,11 +215,10 @@ div.page {
     }
         
         div.text {
-            width: autopx;
+            width: auto;
             height: auto;
             margin-top: 1%;
             margin-bottom: 1%;
-			position: center;
 			display: block;
 			justify-content: center;
         }
@@ -211,6 +236,18 @@ div.page {
 				font-weight: bold;
                 font-size: 20px;
                 text-align: center;
+				margin-top: 1%;
+				margin-bottom: 1%;
+                color: rgb( 48, 53, 62);
+            }
+			
+			div.text a {
+                font-family: 'Sans Pro Extra Light';
+				font-weight: bold;
+                font-size: 20px;
+                text-align: center;
+				margin-left: auto;
+				margin-right: auto;
 				margin-top: 1%;
 				margin-bottom: 1%;
                 color: rgb( 48, 53, 62);
@@ -250,6 +287,8 @@ div.page {
         div.button-row {
             width: 100%;
             height: 50px;
+			margin-left: 2%;
+			margin-right: 2%;
         }
 		
 			div.button:hover {
@@ -297,7 +336,7 @@ div.page {
         padding-left: 15px;
         padding-right: 15px;
         position: absolute;
-        bottom: 10px;
+        bottom: 0px;
     }
 
     div.footer-copyright {
@@ -306,7 +345,7 @@ div.page {
         width: auto;
     }
 
-        div.copyright p {
+        div.copyright a {
             height: auto;
             width: auto;
             font-family: 'Sans Pro Regular';
