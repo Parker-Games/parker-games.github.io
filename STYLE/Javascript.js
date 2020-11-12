@@ -6,20 +6,21 @@ function passWord() {
 	} else if (cookie == "locked") {
 		alert('LOCKED');
 		return " ";
-	}
-	var pass = prompt('Enter Access Code','');
-	if (pass == "") {
-		location.reload();
-	} else if (pass.toLowerCase() == "notpassword") {
-		directProtected();
-	}
-	var pass = prompt('INCORRECT','');
-	if (pass.toLowerCase()!= "notpassword") {
-		createCookie("accesscode", "locked")
-		alert('LOCKED');
-	}
-	if (pass.toLowerCase() == "notpassword") {
-		directProtected();
+	} else {
+		var pass = prompt('Enter Access Code','');
+		if (pass == "") {
+			location.reload();
+		} else if (pass.toLowerCase() == "notpassword") {
+			directProtected();
+		}
+		var pass = prompt('INCORRECT','');
+		if (pass.toLowerCase()!= "notpassword") {
+			createCookie("accesscode", "locked")
+			alert('LOCKED');
+		}
+		if (pass.toLowerCase() == "notpassword") {
+			directProtected();
+		}
 	}
 	return " ";
 }
@@ -32,7 +33,7 @@ function directProtected() {
 
 function createCookie(cookieName,cookieValue)
 {
-  document.cookie = cookieName + "=" + cookieValue + "; path=/; expires=" + new Date(2147483647 * 1000).toUTCString(); + "; secure; samesite=lax;";
+  document.cookie = cookieName + "=" + cookieValue + "; expires=" + new Date(2147483647 * 1000).toUTCString(); + "; path=/; secure;";
 }
 
 function accessCookie(cookieName) {
