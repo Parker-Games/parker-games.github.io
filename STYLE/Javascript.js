@@ -1,7 +1,5 @@
 function passWord() {
 	var pass = accessCookie("accesscode")
-	if (pass == "")
-		pass == "05f721989a4f70756a3b8387767affd11c776a0c863f1a22410855e606753321";
 	if (checkCode( pass, "checkCookie") == "TRUE") {
 		directProtected();
 		return " ";
@@ -14,14 +12,17 @@ function passWord() {
 			location.reload();
 		} else if (checkCode( pass, "passWord") == "TRUE") {
 			directProtected();
+			return " ";
 		}
 		var pass = prompt('INCORRECT','');
 		if (checkCode( pass, "passWord") != "TRUE") {
 			createCookie("accesscode", "bfc160483cb0e2c3834a16e02ba45e2995e8f00fdcab3a22505d495ab9ec288b")
 			alert('LOCKED');
+			return " ";
 		}
 		if (checkCode( pass, "passWord") == "TRUE") {
 			directProtected();
+			return " ";
 		}
 	}
 	return " ";
