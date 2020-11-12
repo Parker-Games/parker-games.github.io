@@ -32,7 +32,7 @@ function directProtected() {
 
 function createCookie(cookieName,cookieValue)
 {
-  document.cookie = cookieName + "=" + cookieValue + "; expires=" + new Date(2147483647 * 1000).toUTCString(); + "; samesite=lax; secure";
+  document.cookie = cookieName + "=" + cookieValue + "; expires=" + new Date(2147483647 * 1000).toUTCString(); + "; domain=garrettspage.com; path=/; samesite=lax; secure";
 }
 
 function accessCookie(cookieName) {
