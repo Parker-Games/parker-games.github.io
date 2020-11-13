@@ -8,7 +8,6 @@ function passCode() {
 			return " ";
 		}
 		var pass = deCode(code)
-		alert(pass);
 		if (validURL(pass)) {
 			window.open(pass, '_self');
 			alert('GRANTED');
