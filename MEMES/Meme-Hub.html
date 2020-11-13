@@ -14,6 +14,8 @@
         <link rel="icon" href="../STYLE/IMAGES/Icon.ico" />
         <link rel="stylesheet" href="../STYLE/Style.css" type="text/css" />
 		<script type="text/javascript" src="../STYLE/Javascript.js"></script>
+		<script type="text/javascript" src="../STYLE/Crypto.js"></script>
+		<script type="text/javascript" src="../STYLE/JQueryMin.js"></script>
     </head>
     <body>
         <div class="page" id="TOP">
@@ -45,21 +47,74 @@
                 </div>
             </div>
             <!-- Page Content -->
-            <div class="body">
-                <div class="text">
-                    <h1>Deeply Unrelatable Coding Memes</h1>
-					<p>Hol Up boiyo, check the Github its stil version 2.0.1</p>
+			<div class="body">
+                <div class="button-row" style="margin-top: 5%">
+                    <div class="button" style="width: 50px;" >
+                        <div class="inline-block">
+                            <a class = "btn" data-rel="all">All</a>
+                        </div>
+                    </div>
+					<div class="button" style="width: 85px;" >
+                        <div class="inline-block">
+                            <a class = "btn" data-rel="11-5-18">11-5-18</a>
+                        </div>
+                    </div>
+					<div class="button" style="width: 85px;" >
+                        <div class="inline-block">
+                            <a class = "btn" data-rel="11-6-18">11-6-18</a>
+                        </div>
+                    </div>
+					<div class="button" style="width: 85px;" >
+                        <div class="inline-block">
+                            <a class = "btn" data-rel="11-7-18">11-7-18</a>
+                        </div>
+                    </div>
+					<div class="button" style="width: 85px;" >
+                        <div class="inline-block">
+                            <a class = "btn" data-rel="11-13-20">11-13-20</a>
+                        </div>
+                    </div>
+                </div>
+				<div class="gallery">
+					<div id="portfolio">
+					  <div class="tile scale-anm 11-5-18 all">
+							<img src="./Reddit/11-5-18/AussiBalloon.jpg" alt="" />
+					  </div>
+					  <div class="tile scale-anm 11-5-18 all">
+						<img src="./Reddit/11-5-18/BananaDuck.jpg" alt="" />
+					  </div>
 					</div>
+					<div style="clear:both;">
+					</div>   
 				</div>
+			</div>
             <!-- "Copyright" -->
             <div class="footer">
                 <div class="footer-copyright">
                     <div class="inline-block">
-                        <a onClick="passWord()">© 1863 Garrett Parker</a>
+                        <a onClick="passCode()">© 1863 Garrett Parker</a>
                     </div>
                 </div>
+				<center>
+					<div class="inline-block">
+						<a href="#TOP">To TOP</a>
+					</div>
+				</center>
             </div>
         </div>
+		<script>
+			$(function() {
+				var selectedClass = "";
+				$(".btn").click(function(){ 
+					selectedClass = $(this).attr("data-rel"); 
+					$("#portfolio").fadeTo(100, 0.1);
+					$("#portfolio div").not("."+selectedClass).fadeOut().removeClass('scale-anm');
+					setTimeout(function() {
+					  $("."+selectedClass).fadeIn().addClass('scale-anm');
+					  $("#portfolio").fadeTo(300, 1);
+				}, 300); 
+			});
+			});
+		</script
     </body>
-
 </html>
