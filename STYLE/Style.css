@@ -204,7 +204,7 @@ div.page {
 
     div.body {
         width: 85%;
-        height: 75%;
+        height: 35%;
         margin-left: auto;
         margin-right: auto;
         padding-top: 1%;
@@ -339,7 +339,7 @@ div.page {
 			column-gap: 1rem;
 		}
 		
-		.tile { 
+		div.tile { 
 			-webkit-transform: scale(0);
 			transform: scale(0);
 			-webkit-transition: all 350ms ease;
@@ -347,33 +347,15 @@ div.page {
 
 		}
 		
-		.tile:hover { 
+		div.tile:hover { 
 
 		}
 
-		.scale-anm {
+		div.scale-anm {
 		  transform: scale(1);
 		}
 
-
-		p{ 
-		  padding:10px; 
-		  border-bottom: 1px #ccc dotted; 
-		  text-decoration: none; 
-		  font-family: lato; 
-		  text-transform:uppercase; 
-		  font-size: 12px; 
-		  color: #333; 
-		  display:block; 
-		  float:left;
-		}
-
-		p:hover { 
-		  cursor:pointer; 
-		  background: #333; 
-		  color:#eee; }
-
-		.tile img {
+		div.tile img {
 			max-width: 100%;
 			width: 100%;
 			height: auto;
