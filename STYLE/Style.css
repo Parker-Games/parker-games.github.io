@@ -212,6 +212,7 @@ div.page {
         padding-left: 15px;
         padding-right: 15px;
         position: relative;
+		background-color: rgb( 26, 52, 35);
     }
         
         div.text {
