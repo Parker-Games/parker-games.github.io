@@ -363,6 +363,13 @@ div.page {
 			margin-bottom: 1rem;
 		  
 		}
+		
+		form.login {
+			margin: 10%;
+			padding: 5%;
+			background: rgb( 80, 80, 80);
+			border-radius: 25px;
+		}
 
     /* "Copyright" and To Top*/
     div.footer {
