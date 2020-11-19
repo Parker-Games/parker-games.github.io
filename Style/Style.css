@@ -5,35 +5,35 @@
 
 @font-face {
     font-family: 'Sans Pro Regular';
-    src: url("./FONT/Source Sans Pro Regular.ttf");
+    src: url("./Font/Source Sans Pro Regular.ttf");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Sans Pro SemiBold';
-    src: url("./FONT/Source Sans Pro SemiBold.ttf");
+    src: url("./Font/Source Sans Pro SemiBold.ttf");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Sans Pro Bold';
-    src: url("./FONT/Source Sans Pro Bold.ttf");
+    src: url("./Font/Source Sans Pro Bold.ttf");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Sans Pro Extra Light';
-    src: url("./FONT/Source Sans Pro Extra Light.ttf");
+    src: url("./Font/Source Sans Pro Extra Light.ttf");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Halfling Regular';
-    src: url("./FONT/GLYFICONS Halflings Regular.ttf");
+    src: url("./Font/GLYFICONS Halflings Regular.ttf");
 }
 
 html, body {
@@ -228,6 +228,23 @@ div.page {
                 font-size: 40px;
                 text-align: center;
 				margin-bottom: 1%;
+                color: rgb( 48, 53, 62);
+			}
+			
+			div.text h2 {
+				font-family: 'Sans Pro Bold';
+                font-size: 30px;
+                text-align: center;
+				margin-bottom: 1%;
+                color: rgb( 48, 53, 62);
+			}
+			
+			.list-center {
+				font-family: 'Sans Pro Bold';
+                font-size: 30px;
+                text-align: center;
+				margin-bottom: 1%;
+				display: inline-block;
                 color: rgb( 48, 53, 62);
 			}
 
