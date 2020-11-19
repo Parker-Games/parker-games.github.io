@@ -8,7 +8,7 @@ document.write(`
 		<nav class="nav-block">
 			<div class="nav-link" style="width: 120px">
 				<div class="inline-block">
-					<a href="https://garrettspage.com/Games/Project-Hub.html" >PROJECTS</a>
+					<a href="https://garrettspage.com/PROJECTS/Project-Hub.html" >PROJECTS</a>
 				</div>
 			</div>
 			<div class="nav-link" style="width: 90px">
