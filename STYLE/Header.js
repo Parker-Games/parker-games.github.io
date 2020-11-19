@@ -18,7 +18,7 @@ document.write(`
 			</div>
 			<div class="nav-link-big" style="width: 150px">
 				<div class="inline-block">
-					<a href="https://garrettspage.com/OTHER/Info.html" >INFO/CONTACT</a>
+					<a href="https://garrettspage.com/D/Document-Hub.html" >DOCUMENTS</a>
 				</div>
 			</div>
 		</nav>
