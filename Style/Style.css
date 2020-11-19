@@ -39,27 +39,24 @@
 html, body {
     min-width: 675px;
     min-height: 320px;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    color: rgb( 0, 0, 0);
-}
-
-div.page {
-    height: auto;
-    width: 100%;
 
     top: 0;
     left: 0;
     right: 0;
-
-    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+	
+	background-position: center;
     background-size: cover;
 	background-repeat: no-repeat;
     background-image: url("./Images/Background-Blured.png");
     background-color: rgb( 26, 52, 35);
-	
-	overflow: hidden;
+}
+
+div.page {
+	height: 100%;
+	width: 100%;
 }
 
 
@@ -255,8 +252,8 @@ div.page {
 				font-family: 'Sans Pro Bold';
                 font-size: 40px;
                 text-align: center;
-				margin-bottom: 20px;
-				margin-top: 20px;
+				padding-bottom: 20px;
+				padding-top: 20px;
                 color: rgb( 48, 53, 62);
 			}
 			
