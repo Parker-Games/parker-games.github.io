@@ -240,9 +240,11 @@ div.page {
 			}
 			
 			div.text li {
-				font-family: 'Sans Pro Bold';
-                font-size: 30px;
+				font-family: 'Sans Pro Extra Light';
+				font-weight: bold;
+                font-size: 20px;
                 text-align: center;
+				margin-top: 1%;
 				margin-bottom: 1%;
 				display: inline-block;
                 color: rgb( 48, 53, 62);
