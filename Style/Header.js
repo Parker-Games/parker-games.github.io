@@ -6,7 +6,7 @@ document.write(`
 			</div>
 		</div>
 		<nav class="nav-block">
-			<div class="nav-link" style="width: 120px">
+			<div class="nav-link" style="width: 115px">
 				<div class="inline-block">
 					<a href="https://garrettspage.com/Projects/Project-Hub.html" >PROJECTS</a>
 				</div>

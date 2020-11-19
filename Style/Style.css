@@ -56,7 +56,7 @@ div.page {
     background-position: center;
     background-size: cover;
 	background-repeat: no-repeat;
-    background-image: url("./IMAGES/Background-Blured.png");
+    background-image: url("./Images/Background-Blured.png");
     background-color: rgb( 26, 52, 35);
 }
 
@@ -239,7 +239,7 @@ div.page {
                 color: rgb( 48, 53, 62);
 			}
 			
-			.list-center {
+			div.text li {
 				font-family: 'Sans Pro Bold';
                 font-size: 30px;
                 text-align: center;
