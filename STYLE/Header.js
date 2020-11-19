@@ -8,17 +8,17 @@ document.write(`
 		<nav class="nav-block">
 			<div class="nav-link" style="width: 120px">
 				<div class="inline-block">
-					<a href="https://garrettspage.com/PROJECTS/Project-Hub.html" >PROJECTS</a>
+					<a href="https://garrettspage.com/Projects/Project-Hub.html" >PROJECTS</a>
 				</div>
 			</div>
 			<div class="nav-link" style="width: 90px">
 				<div class="inline-block">
-					<a href="https://garrettspage.com/MEMES/Meme-Hub.html" >MEMES</a>
+					<a href="https://garrettspage.com/Memes/Meme-Hub.html" >MEMES</a>
 				</div>
 			</div>
 			<div class="nav-link-big" style="width: 150px">
 				<div class="inline-block">
-					<a href="https://garrettspage.com/D/Document-Hub.html" >DOCUMENTS</a>
+					<a href="https://garrettspage.com/Documents/Document-Hub.html" >DOCUMENTS</a>
 				</div>
 			</div>
 		</nav>
