@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--  ----==Garrett Parker==----   -->
 <!--   This HTML script is built   -->
 <!--      by Garrett Parker        -->
@@ -6,7 +6,7 @@
     <head>
         <!-- Define Page -->
         <meta charset="utf-8" />
-        <title>Garrett's Page - HOME</title>
+        <title>Garrett's Page - Test</title>
         <meta name="keywords" content="Garretts Page, Garrett Parker, Garrett, Parker">
         <meta name="description" content="The official webpage of Garrett Parker" />
         <meta name="author" content="Garrett Parker" />
@@ -46,11 +46,17 @@
             <!-- Page Content -->
             <div class="body">
                 <div class="text">
-                    <h1>ERROR 404</h1>
-					<div class="inline-block">
-						<a href="javascript:history.back()">BACK</a>
-					</div>
+                    <h1>Backend Development</h1>
+					<p>Uses Node.js + MySQL to authenticate Socket.io connections</p>
                 </div>
+				<center>
+					<form class="login" id="login" >
+						<input type="text" autocomplete="username" id="userName" placeholder="Username" /><br>
+						<input type="password" autocomplete="current-password" id ="passWord" placeholder="Password" /><br>
+						<button type="submit" id="submit" >Login</button>
+						<p id="error" style="color: red" ></p>
+					</form>
+				</center>
             </div>
             <!-- "Copyright" -->
             <div class="footer">
@@ -62,4 +68,7 @@
             </div>
         </div>
     </body>
+	<script>
+		
+	</script>
 </html>
