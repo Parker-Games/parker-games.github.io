@@ -229,6 +229,17 @@ div.page {
 		background: rgb( 245, 245, 245);
 		border-radius: 15px;
 	}
+	
+	div.body-max {
+	    width: auto;
+		height: auto;
+		padding-top: 10px;
+		padding-bottom: 35px;
+		padding-left: 2%;
+		padding-right: 2%;
+		position: relative;
+		background-color: rgb( 26, 52, 35);
+	}
         
         div.text {
             width: auto;
@@ -365,7 +376,6 @@ div.page {
 		div.gallery {
 		  float: none;
 		  margin: auto;
-		  overflow-y: scroll;
 		}
 		
 		#portfolio {  
@@ -415,6 +425,17 @@ div.page {
         padding-left: 15px;
         padding-right: 15px;
         position: absolute;
+        bottom: 0px;
+    }
+	
+	div.footer-inline {
+        width: 85%;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1%;
+        padding-left: 15px;
+        padding-right: 15px;
         bottom: 0px;
     }
 
