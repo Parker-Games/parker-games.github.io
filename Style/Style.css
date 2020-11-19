@@ -187,44 +187,44 @@ div.page {
 			}
 			
 				div.nav-link-right a{
-						height: auto;
-						width: auto;
-						padding-top: 13%;
-						padding-bottom: 12%;
-						padding-left: 6%;
-						padding-right: 6%;
-						font-family: 'Sans Pro Regular';
-						letter-spacing: 1px;
-						font-weight: lighter;
-						text-align: center;
-						text-decoration: none;
-						color: rgb( 103, 114, 135);
-						font-size: 18px;
+					height: auto;
+					width: auto;
+					padding-top: 13%;
+					padding-bottom: 12%;
+					padding-left: 6%;
+					padding-right: 6%;
+					font-family: 'Sans Pro Regular';
+					letter-spacing: 1px;
+					font-weight: lighter;
+					text-align: center;
+					text-decoration: none;
+					color: rgb( 103, 114, 135);
+					font-size: 18px;
                 }
 
     div.body {
-            width: 85%;
+        width: fit-content;
 		height: auto;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 25px;
-		padding-top: 1%;
-		padding-bottom: 1%;
-		padding-left: 15px;
-		padding-right: 15px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 30px;
+		padding-right: 30px;
 		position: relative;
     }
 	
 	div.body-box {
-		width: 85%;
+	    width: fit-content;
 		height: auto;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 25px;
-		padding-top: 1%;
-		padding-bottom: 1%;
-		padding-left: 15px;
-		padding-right: 15px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 30px;
+		padding-right: 30px;
 		position: relative;
 		background: rgb( 245, 245, 245);
 		border-radius: 15px;
