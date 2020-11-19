@@ -46,7 +46,7 @@ html, body {
 }
 
 div.page {
-    height: 100%;
+    height: auto;
     width: 100%;
 
     top: 0;
@@ -58,6 +58,8 @@ div.page {
 	background-repeat: no-repeat;
     background-image: url("./Images/Background-Blured.png");
     background-color: rgb( 26, 52, 35);
+	
+	overflow: hidden;
 }
 
 
@@ -221,8 +223,8 @@ div.page {
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 25px;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: 0px;
+		padding-bottom: 20px;
 		padding-left: 30px;
 		padding-right: 30px;
 		position: relative;
@@ -238,7 +240,6 @@ div.page {
 		padding-left: 2%;
 		padding-right: 2%;
 		position: relative;
-		background-color: rgb( 26, 52, 35);
 	}
         
         div.text {
@@ -254,7 +255,8 @@ div.page {
 				font-family: 'Sans Pro Bold';
                 font-size: 40px;
                 text-align: center;
-				margin-bottom: 1%;
+				margin-bottom: 20px;
+				margin-top: 20px;
                 color: rgb( 48, 53, 62);
 			}
 			
