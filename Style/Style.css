@@ -252,7 +252,8 @@ div.page {
 				font-family: 'Sans Pro Bold';
                 font-size: 40px;
                 text-align: center;
-				padding-bottom: 20px;
+				margin-top: 0px;
+				margin-bottom: 0px;
 				padding-top: 20px;
                 color: rgb( 48, 53, 62);
 			}
