@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="https://garrettspage.com/Style/Style.css" type="text/css" />
     </head>
     <body>
-        <div class="page" id="TOP">
+        <div class="page" id="TOP"  style="height: auto">
             <!-- Create Navigation Bar & Branding -->
             <div class="header">
                 <script src="https://garrettspage.com/Style/Header.js"></script>
@@ -23,21 +23,34 @@
             <!-- Page Content -->
             <div class="body-box">
                 <div class="text">
-                    <h1>Windows Hack</h1>
-					<p>This tutorial will teach you how to gain administator access
-					<br/>on any computer with additions for DELL computers</p>
-                </div>
-                <div class="text">
+                    <h1>Windows CMD-Utilman Admin Hack</h1>
                     <h2>Requirements:</h2>
-					<p>A flash drive with at least 1 GB of storage
-					<br />A seperate computer with administartor access</p>
+					<p>A flash drive with at least 2 GB of storage
+					<br/>A separate computer with administartor access</p>
+                </div>
+				<div class="text">
+                    <h2>Install:</h2>
+					<p>Install anything <a onClick="javascript:window.open('https://www.makeuseof.com/tag/linux-distro-space/')" href="" >bootable with a file editor</a> on to the USB drive using the seperate PC with administrator access.
+					<br/><i>(Note: This will wipe the USB of its contents). The PC with admin access is no longer needed.</i>
+					<br/>Shutdown the PC and plug in the USB. Boot the USB by opening the BIOS boot menu and selecting the device.
+					<br/><i>(Note: If your PC's BIOS is password locked I have a <a href="https://garrettspage.com/Documents/Tutorials/Hack-DELL-BIOS.html" >tutorial</a> to unlock any DELL BIOS)</i>
+					<br/>Once the USB is booted open the file editor and goto C:/windows/system32 and rename Utilman.exe to Utilman.bak
+					<br/>Then copy cmd.exe to Utilman.exe</p>
+					<h2>Hack:</h2>
+					<p>Booting the PC normally to Windows 10, at the login screen bottem right is the eause of access button.
+					<br/>It is inbetween the network and power button and clickign it opens a command prompt with root access.
+					<br/>First you must activate the built in Administrator account by typing "net user Administrator /active:yes"
+					<br/>Then to set the password you type "net user Administrator *" <i>(Asterisk included)</i> and enter a password twice
+					<br/>You can then restart and an Administrator account will show up, but if it dosent or you have
+					<br/>a normal account that you can use when User Account Control Prompts you for an admin account
+					<br/>you can sign into the "Administrator" account and if you are on work or school account
+					<br/>you have to put a period and backslash befor it ".\"</p>
                 </div>
             </div>
             <!-- "Copyright" -->
-            <div class="footer">
+            <div class="footer-inline">
                 <script src="https://garrettspage.com/Style/Footer.js"></script>
             </div>
         </div>
     </body>
-
 </html>
