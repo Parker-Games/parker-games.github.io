@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="https://garrettspage.com/Style/Style.css" type="text/css" />
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.1/socket.io.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+		<script type="text/javascript" src="https://garrettsapge.com/Scripts/Account.js"></script>
     </head>
     <body>
         <div class="page" id="TOP">
@@ -44,41 +45,4 @@
             </div>
         </div>
     </body>
-	<script>
-		var socket = io('https://server.garrettspage.com');
-		$(document).ready(function(){
-			$("#error").hide();
-			$("#submit").click(function (e){
-				e.preventDefault();
-				if ($("#userName").val() == "") {
-					$("#error").text("Blank Username");
-					$("#error").show();
-				}
-				socket.emit("acc_send", {
-					user: $("#userName").val(),
-					pass: $("#passWord").val()
-				});
-			});
-		});
-		
-		socket.on("acc_authed", function(name, other){
-			if (name == "link") {
-				window.open(other, '_self');
-			}
-			$("#login").hide();
-			alert("Welcome back " + name + ", nice to see you again!");
-		});
-
-		socket.on("acc_invalid", function(){
-			alert("Username / Password Invalid, Please try again!");
-		});
-
-		socket.on("acc_disabled", function(){
-			alert("Account Disabled!");
-		});
-
-		socket.on("acc_error", function(){
-			alert("Error: Please try again!");
-		});
-	</script>
 </html>
